@@ -2,7 +2,7 @@
   "name": "ui-progress-circle",
   "description": "UI Widget - simple svg progress circle, credit: Leandro Linares",
   "homepage": "https://github.com/MeteorWidgets/Meteor-ui-progress-circle",
-  "author": "@raix",
+  "author": "Morten Henriksen (http://gi-software.com)",
   "version": "0.0.1",
   "git": "https://github.com/MeteorWidgets/Meteor-ui-progress-circle.git",
   "packages": {
