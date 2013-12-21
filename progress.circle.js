@@ -15,7 +15,7 @@ Template.progressCircle.sizeCalc = function(progress, radius, className) {
     className: className || 'green',
     strokeWidth: Math.round(radiusCalc*0.07),
     svgSize: {
-      heigth: radiusCalc*2,
+      height: radiusCalc*2,
       width: radiusCalc*2
     },
     radiusA: Math.round(radiusCalc*0.82),
