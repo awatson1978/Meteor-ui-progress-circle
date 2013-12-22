@@ -30,7 +30,7 @@ Template.progressCircle.progressLine = function(progress, r) {
   // Update the wheel giving to it a value in degrees,
   // getted from the percentage of the input value
   // a.k.a. (value * 360) / 100
-  var degrees = progress * 3.5999,
+  var degrees = ((progress > 100)?100:progress) * 3.5999,
       // Convert the degrees value to radians
       rad = degrees * toRadians,
       // Determine X and cut to 2 decimals
